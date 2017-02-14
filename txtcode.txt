@@ -1,0 +1,11 @@
+﻿Dim shake As Animation
+shake.InitializeTranslate("", -1dip, 0, 1dip, 0)
+shake.RepeatCount = 5
+shake.RepeatMode = shake.REPEAT_REVERSE
+shake.Duration = 50
+
+shake.Start(EditText1)
+
+
+'@CafeToseeh
+'نیازمند کتابخانه Animation
